@@ -1,6 +1,6 @@
 # Description 
-# Frontend Mentor - Interactive pricing component
-# coded by - Agustín Vilariño - 
+Frontend Mentor - Interactive pricing component
+coded by - Agustín Vilariño - 
 
 # Designs
 ![Design preview for the Interactive pricing component coding challenge](./assets/design/desktop-design.jpg)
@@ -22,7 +22,7 @@ the challenges of  - Frontend Mentor Website - using different technologies.
 The project is finally but i`m open to your opinion.
 you can send me a message ! :)
 
-# authors and acknowledgments
+# Authors and acknowledgments
 Thanks to Frontend Mentor Website for the challenge is very importan to study and improve new technologies.
 Thanks for the material and the websites !!
 - https://www.frontendmentor.io/
@@ -34,9 +34,8 @@ Thanks for the material and the websites !!
 This is a project with open code
 
 # project status
-The project is finally :)
-
-=> https://avilarino.github.io/interactive-pricing-component/
+The project is finally :) 
+- https://avilarino.github.io/interactive-pricing-component/
 
 # Contact
 if you like it, yo can follow me in my social networks
