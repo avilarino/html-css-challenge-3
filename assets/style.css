@@ -218,15 +218,23 @@ display: flex;
   margin-bottom: 20px
 }
 
-
-.button-blue {
+.container-blue{
   background-color: hsl(227, 35%, 25%);
   color: white;
-  padding: 15px 60px 15px 60px;
+  padding: 15px;
   border-radius: 25px;
   text-decoration: none;
   text-align: center;
+  box-sizing: content-box;
+ 
 }
+
+.button-blue {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 @media (min-width: 375px) {
     .three-container {
