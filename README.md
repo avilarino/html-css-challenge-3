@@ -1,14 +1,13 @@
 # Frontend Mentor - Interactive pricing component
+# coded by Agustín Vilariño
 
 ![Design preview for the Interactive pricing component coding challenge](./assets/design/desktop-design.jpg)
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+My name is Agustín Vilariño in this repository you can find the 
+final code of de the challenge #Interactive pricing component, one of the exercises from Frontend Mentor Website: https://www.frontendmentor.io/
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
