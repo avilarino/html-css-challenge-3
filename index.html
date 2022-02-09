@@ -3,61 +3,55 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-    <link href="assets/style.css" rel="stylesheet">
+    <link href="assets/styles/style.css" rel="stylesheet">
+    <link href="assets/styles/normalize.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Frontend Mentor | Interactive pricing component</title>
   </head>
   <body>
     <div class="principal-container">
-  
       <svg class="bg-pattern" xmlns="http://www.w3.org/2000/svg" width="1440" height="449"><path fill="#F1F5FE" fill-rule="evenodd" d="M0 0h1440v449H191.5C85.737 449 0 363.263 0 257.5V0z"/></svg>
-  
       <div class="first-container">
         <svg class="pattern-circles" xmlns="http://www.w3.org/2000/svg" width="146" height="145"><g fill="none" fill-rule="evenodd" stroke="#CFD8EF"><circle cx="63" cy="82" r="62.5"/><circle cx="105" cy="41" r="40.5"/></g></svg>
         <div class="first-container-titles">
-          <h2>Simple, traffic-based pricing</h2>
+          <h3>Simple, traffic-based pricing</h3>
           <p>Sign-up for our 30-day trial. </p>
           <p>No credit card required.</p>
         </div>
       </div>
-  
       <div class="second-principal-container">
-
         <div class="second-container">
-            <h3 class="text-grey-bold">PAGEVIEWS</h3>
+            <h4 >PAGEVIEWS</h4>
+            <div class="second-container-titles-desktop">
+              <h3>PAGEVIEWS</h3>
+              <p>$ /month</p>
+            </div>
             <div class="slidecontainer">
               <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
             </div>
-            <p class="text-grey-bold">$ /month</p>
+            <p class="text-grey-bold-mobile">$ /month</p>
             <div class="second-container-discount">
-              <p class="text-grey-bold">Monthly Billing</p>
+              <p>Monthly Billing</p>
               <label class="switch">
                 <input type="checkbox">
                 <span class="slider2 round"></span>
               </label>
-
               <div class="flex-discount">
-                  <p class="text-grey-bold">Yearly Billing</p>
+                  <p>Yearly Billing</p>
                   <p class="discount-mobile">-25%</p>
                   <p class="discount-desktop">-25% discount</p>
               </div>
             </div>
         </div>
-
         <div class="three-container">
           <div class="three-container-titles">
-            <p class="text-grey-bold"><span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span> Unlimited websites</p>
-            <p class="text-grey-bold"><span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span> 100% data ownership</p>
-            <p class="text-grey-bold"><span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span> Email reports</p>
+            <p><span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span> Unlimited websites</p>
+            <p><span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span> 100% data ownership</p>
+            <p><span><svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg></span> Email reports</p>
           </div>
-          
-          <div class="container-blue">
             <a class="button-blue" href="">Start my trial</a>
-          </div>
         </div>
     </div>
-  
-    
   </body>
   </html>
 
